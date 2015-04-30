@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  git "/books" => "books#index", as: 'books'
+  get "/books" => "books#index", as: 'books'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
