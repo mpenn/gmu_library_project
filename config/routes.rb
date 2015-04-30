@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
   get "/books" => "books#index", as: 'books'
+  get "/books/new" => "books#new", as: 'new_book'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
