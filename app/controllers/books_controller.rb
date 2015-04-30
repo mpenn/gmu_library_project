@@ -4,7 +4,7 @@ class BooksController < ApplicationController
 
   def index
     @available_at = Time.now
-    @books = Book.all
+    @books = Book.order(:title).page(params[:page])
   end
 
   def create
@@ -46,7 +46,7 @@ class BooksController < ApplicationController
   private
 
   def book_params
-    params.require(:book).permit(:title, :pages)
+    params.require(:book).permit(:title, :pages, :isbn, :author_id, :genre, :abstract, :image_cover_url, :created_at, :updated_at, :published_on, :total_in_library)
   end
 
   def set_book

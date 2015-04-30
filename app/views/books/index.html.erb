@@ -1,6 +1,6 @@
 <h1>Books</h1>
 <p>Available as <%= formatted_time(@available_at) %></p>
-
+  <%= page_entries_info @books %>
   <ol>
     <% @books.each do |book| %>
       <li>
@@ -9,3 +9,5 @@
       </li>
     <% end %>
   </ol>
+
+<%= paginate @books %>

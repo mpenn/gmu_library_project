@@ -1943,3 +1943,1262 @@ Processing by BooksController#show as HTML
   Rendered layouts/_sidebar.html.erb (0.2ms)
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 53ms (Views: 52.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:39:16 -0700
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (8.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 48ms (Views: 45.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/gmu_library_project.self-dda0d9cc1ecf5a69ee608be08103d75d9e2396be9555c0774e9c2f8187e0c57b.css?body=1" for 127.0.0.1 at 2015-04-29 19:39:16 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-04-29 19:39:16 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-04-29 19:39:16 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-29 19:39:16 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-04-29 19:39:16 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-04-29 19:39:16 -0700
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:40:11 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (17.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 55ms (Views: 54.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/gmu_library_project.self-dda0d9cc1ecf5a69ee608be08103d75d9e2396be9555c0774e9c2f8187e0c57b.css?body=1" for 127.0.0.1 at 2015-04-29 19:40:11 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-04-29 19:40:11 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-04-29 19:40:11 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-29 19:40:11 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-04-29 19:40:11 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-04-29 19:40:11 -0700
+
+
+Started GET "/books/page/2" for 127.0.0.1 at 2015-04-29 19:40:13 -0700
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 3[0m
+  Rendered books/index.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:40:17 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/5" for 127.0.0.1 at 2015-04-29 19:40:19 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered books/show.html.erb within layouts/application (16.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 59ms (Views: 57.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:40:23 -0700
+Processing by BooksController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0
+  Rendered books/index.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books/5" for 127.0.0.1 at 2015-04-29 19:40:25 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered books/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 38ms (Views: 36.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/5/edit" for 127.0.0.1 at 2015-04-29 19:40:28 -0700
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered shared/_validation_errors.html.erb (28.9ms)
+  Rendered books/_form.html.erb (58.1ms)
+  Rendered books/edit.html.erb within layouts/application (59.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 94ms (Views: 93.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:40:56 -0700
+Processing by BooksController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0
+  Rendered books/index.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:40:58 -0700
+Processing by BooksController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0
+  Rendered books/index.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/1" for 127.0.0.1 at 2015-04-29 19:41:00 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered books/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:41:01 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/page/2" for 127.0.0.1 at 2015-04-29 19:41:02 -0700
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 3[0m
+  Rendered books/index.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:41:03 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:41:29 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (16.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 59ms (Views: 55.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/gmu_library_project.self-dda0d9cc1ecf5a69ee608be08103d75d9e2396be9555c0774e9c2f8187e0c57b.css?body=1" for 127.0.0.1 at 2015-04-29 19:41:29 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-04-29 19:41:29 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-04-29 19:41:29 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-29 19:41:29 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-04-29 19:41:29 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-04-29 19:41:29 -0700
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:44:37 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/gmu_library_project.self-dda0d9cc1ecf5a69ee608be08103d75d9e2396be9555c0774e9c2f8187e0c57b.css?body=1" for 127.0.0.1 at 2015-04-29 19:44:37 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-04-29 19:44:37 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-04-29 19:44:37 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-04-29 19:44:37 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-04-29 19:44:37 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-29 19:44:37 -0700
+
+
+Started GET "/books/5" for 127.0.0.1 at 2015-04-29 19:44:39 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered books/show.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 42ms (Views: 40.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/books/5/edit" for 127.0.0.1 at 2015-04-29 19:44:42 -0700
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered shared/_validation_errors.html.erb (0.1ms)
+  Rendered books/_form.html.erb (6.5ms)
+  Rendered books/edit.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/books/5" for 127.0.0.1 at 2015-04-29 19:44:53 -0700
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+TGvjABs5BfUZx+sjTxnIMWtFod4m18oQQiMKaMtNuL2QQRYbBkNVpJuZdRlgt/WU/kMmvGjlmTeDyjnfyXDyw==", "book"=>{"isbn"=>"iscn", "title"=>"test", "author_id"=>"aut", "genre"=>"gen", "abstract"=>"abs", "pages"=>"6", "image_cover_url"=>"imag", "published_on"=>"pub", "total_in_library"=>"tot", "created_at"=>"2015-04-30 02:16:53.629934", "updated_at"=>"2015-04-30 02:16:53.629934"}, "commit"=>"Update Book", "id"=>"5"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 5]]
+Unpermitted parameters: isbn, author_id, genre, abstract, image_cover_url, published_on, total_in_library, created_at, updated_at
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "books" SET "pages" = ?, "updated_at" = ? WHERE "books"."id" = ?  [["pages", 6], ["updated_at", "2015-04-30 02:44:53.658799"], ["id", 5]]
+  [1m[36m (52.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/books/5
+Completed 302 Found in 59ms (ActiveRecord: 53.3ms)
+
+
+Started GET "/books/5" for 127.0.0.1 at 2015-04-29 19:44:53 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered books/show.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:44:59 -0700
+Processing by BooksController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0
+  Rendered books/index.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/5" for 127.0.0.1 at 2015-04-29 19:45:00 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered books/show.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:45:02 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/1" for 127.0.0.1 at 2015-04-29 19:45:03 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered books/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:45:04 -0700
+Processing by BooksController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0
+  Rendered books/index.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/1" for 127.0.0.1 at 2015-04-29 19:45:05 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered books/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:45:07 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/page/2" for 127.0.0.1 at 2015-04-29 19:45:07 -0700
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 3[0m
+  Rendered books/index.html.erb within layouts/application (8.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/6" for 127.0.0.1 at 2015-04-29 19:45:08 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered books/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/5/" for 127.0.0.1 at 2015-04-29 19:45:13 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered books/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/4" for 127.0.0.1 at 2015-04-29 19:45:15 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered books/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 44ms (Views: 42.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/5/" for 127.0.0.1 at 2015-04-29 19:45:17 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered books/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/5/edit" for 127.0.0.1 at 2015-04-29 19:45:19 -0700
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered shared/_validation_errors.html.erb (0.0ms)
+  Rendered books/_form.html.erb (4.3ms)
+  Rendered books/edit.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/books/5" for 127.0.0.1 at 2015-04-29 19:45:21 -0700
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RfCJ3mwfun068FuaeUcpmI/Ka9n+VMZiyfTez9P7671KgCIKAGpTPHz5IeKR+ZFuGZ5xxHdsDy5W83oBD/MelA==", "book"=>{"isbn"=>"", "title"=>"test", "author_id"=>"", "genre"=>"", "abstract"=>"", "pages"=>"8", "image_cover_url"=>"", "published_on"=>"", "total_in_library"=>"", "created_at"=>"2015-04-30 02:16:53.629934", "updated_at"=>"2015-04-30 02:44:53.658799"}, "commit"=>"Update Book", "id"=>"5"}
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 5]]
+Unpermitted parameters: isbn, author_id, genre, abstract, image_cover_url, published_on, total_in_library, created_at, updated_at
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "books" SET "pages" = ?, "updated_at" = ? WHERE "books"."id" = ?[0m  [["pages", 8], ["updated_at", "2015-04-30 02:45:21.811316"], ["id", 5]]
+  [1m[35m (43.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/books/5
+Completed 302 Found in 50ms (ActiveRecord: 43.8ms)
+
+
+Started GET "/books/5" for 127.0.0.1 at 2015-04-29 19:45:21 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered books/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:45:33 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2015-04-29 19:45:36 -0700
+Processing by BooksController#new as HTML
+  Rendered shared/_validation_errors.html.erb (0.0ms)
+  Rendered books/_form.html.erb (4.2ms)
+  Rendered books/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 41ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2015-04-29 19:45:37 -0700
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ep1A53P1IGqN4YdM4XjX/YrFBnlJQ0FvNsgCpmup+j4d7eszH4DJK8vo/TQJxm8LHJEcZMB7iCOpz6Zot6EPFw==", "book"=>{"isbn"=>"test", "title"=>"", "author_id"=>"", "genre"=>"", "abstract"=>"", "pages"=>"", "image_cover_url"=>"", "published_on"=>"", "total_in_library"=>"", "created_at"=>"", "updated_at"=>""}, "commit"=>"Create Book"}
+Unpermitted parameters: isbn, author_id, genre, abstract, image_cover_url, published_on, total_in_library, created_at, updated_at
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", ""], ["created_at", "2015-04-30 02:45:37.985256"], ["updated_at", "2015-04-30 02:45:37.985256"]]
+  [1m[35m (55.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/books/7
+Completed 302 Found in 61ms (ActiveRecord: 56.5ms)
+
+
+Started GET "/books/7" for 127.0.0.1 at 2015-04-29 19:45:38 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered books/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:45:40 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 43ms (Views: 42.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2015-04-29 19:47:17 -0700
+Processing by BooksController#new as HTML
+  Rendered shared/_validation_errors.html.erb (0.0ms)
+  Rendered books/_form.html.erb (6.7ms)
+  Rendered books/new.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 500 Internal Server Error in 47ms
+
+ActionView::Template::Error (Missing partial shared/_flashes with {:locale=>[:en], :formats=>[:html, :xml], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/student/Workspace/gmu_library_project/app/views"
+  * "/home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/kaminari-bootstrap-3.0.1/app/views"
+  * "/home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/kaminari-0.16.3/app/views"
+):
+    12: </div>
+    13: <div class="container">
+    14: <div class="col-xs-9">
+    15:    <%= render '/shared/flashes' %>
+    16:     <%= yield %>
+    17: </div>
+    18: <div class="col-xs-3">
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___2316817123186634505_70358178503220'
+
+
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.9ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.2ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2015-04-29 19:47:17 -0700
+Processing by BooksController#new as HTML
+  Rendered shared/_validation_errors.html.erb (0.4ms)
+  Rendered books/_form.html.erb (5.2ms)
+  Rendered books/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 500 Internal Server Error in 42ms
+
+ActionView::Template::Error (Missing partial shared/_flashes with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/student/Workspace/gmu_library_project/app/views"
+  * "/home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/kaminari-bootstrap-3.0.1/app/views"
+  * "/home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/kaminari-0.16.3/app/views"
+):
+    12: </div>
+    13: <div class="container">
+    14: <div class="col-xs-9">
+    15:    <%= render '/shared/flashes' %>
+    16:     <%= yield %>
+    17: </div>
+    18: <div class="col-xs-3">
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___2316817123186634505_70358178503220'
+
+
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.6ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.8ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2015-04-29 19:47:17 -0700
+Processing by BooksController#new as HTML
+  Rendered shared/_validation_errors.html.erb (0.0ms)
+  Rendered books/_form.html.erb (4.3ms)
+  Rendered books/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 500 Internal Server Error in 48ms
+
+ActionView::Template::Error (Missing partial shared/_flashes with {:locale=>[:en], :formats=>[:html, :xml], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/student/Workspace/gmu_library_project/app/views"
+  * "/home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/kaminari-bootstrap-3.0.1/app/views"
+  * "/home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/kaminari-0.16.3/app/views"
+):
+    12: </div>
+    13: <div class="container">
+    14: <div class="col-xs-9">
+    15:    <%= render '/shared/flashes' %>
+    16:     <%= yield %>
+    17: </div>
+    18: <div class="col-xs-3">
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb___2316817123186634505_70358178503220'
+
+
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.7ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.1ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.5ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2015-04-29 19:47:47 -0700
+Processing by BooksController#new as HTML
+  Rendered shared/_validation_errors.html.erb (0.0ms)
+  Rendered books/_form.html.erb (7.4ms)
+  Rendered books/new.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 50ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-04-29 19:47:47 -0700
+
+
+Started GET "/assets/gmu_library_project.self-dda0d9cc1ecf5a69ee608be08103d75d9e2396be9555c0774e9c2f8187e0c57b.css?body=1" for 127.0.0.1 at 2015-04-29 19:47:47 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-04-29 19:47:47 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-04-29 19:47:47 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-29 19:47:47 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-04-29 19:47:47 -0700
+
+
+Started POST "/books" for 127.0.0.1 at 2015-04-29 19:47:51 -0700
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vlpH1Id60IxD6XT6fa/9BMl1/nNeSAqw5euMnF/HcUyxKuwA6w85zQXgDoKVEUXyXyHkbtdww/x67ChSg8+EZQ==", "book"=>{"isbn"=>"test", "title"=>"", "author_id"=>"", "genre"=>"", "abstract"=>"", "pages"=>"", "image_cover_url"=>"", "published_on"=>"", "total_in_library"=>"", "created_at"=>"", "updated_at"=>""}, "commit"=>"Create Book"}
+Unpermitted parameters: isbn, author_id, genre, abstract, image_cover_url, published_on, total_in_library, created_at, updated_at
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", ""], ["created_at", "2015-04-30 02:47:51.915399"], ["updated_at", "2015-04-30 02:47:51.915399"]]
+  [1m[35m (48.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/books/8
+Completed 302 Found in 54ms (ActiveRecord: 48.8ms)
+
+
+Started GET "/books/8" for 127.0.0.1 at 2015-04-29 19:47:51 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 8]]
+  Rendered books/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 19:47:54 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 55ms (Views: 54.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2015-04-29 19:47:55 -0700
+Processing by BooksController#new as HTML
+  Rendered shared/_validation_errors.html.erb (0.0ms)
+  Rendered books/_form.html.erb (4.0ms)
+  Rendered books/new.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 41ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2015-04-29 19:47:59 -0700
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+BB8G56aGpKb7HTHOsyk1rWxH3pCDx2ovA+xekIKhan3YNfP8u/z093lDr/SchwgI+UFZ8s31OQjCBW0ngJwgA==", "book"=>{"isbn"=>"test3444", "title"=>"", "author_id"=>"", "genre"=>"", "abstract"=>"", "pages"=>"", "image_cover_url"=>"", "published_on"=>"", "total_in_library"=>"", "created_at"=>"", "updated_at"=>""}, "commit"=>"Create Book"}
+Unpermitted parameters: isbn, author_id, genre, abstract, image_cover_url, published_on, total_in_library, created_at, updated_at
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "books" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", ""], ["created_at", "2015-04-30 02:47:59.811319"], ["updated_at", "2015-04-30 02:47:59.811319"]]
+  [1m[35m (43.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/books/9
+Completed 302 Found in 58ms (ActiveRecord: 43.8ms)
+
+
+Started GET "/books/9" for 127.0.0.1 at 2015-04-29 19:47:59 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 9]]
+  Rendered books/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/9/edit" for 127.0.0.1 at 2015-04-29 19:48:50 -0700
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 9]]
+  Rendered shared/_validation_errors.html.erb (0.0ms)
+  Rendered books/_form.html.erb (4.5ms)
+  Rendered books/edit.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 44ms (Views: 42.8ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/books/9" for 127.0.0.1 at 2015-04-29 19:48:55 -0700
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Behsj1ulnc5QmxgBft+D575RzcGPZy1k5VGIleyiE3YKmMdbN9B0jxaSYnmWYTsRKAXX3AZf5Ch6VixbMKrmXw==", "book"=>{"isbn"=>"isbn", "title"=>"", "author_id"=>"", "genre"=>"", "abstract"=>"", "pages"=>"5", "image_cover_url"=>"", "published_on"=>"", "total_in_library"=>"", "created_at"=>"2015-04-30 02:47:59.811319", "updated_at"=>"2015-04-30 02:47:59.811319"}, "commit"=>"Update Book", "id"=>"9"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 9]]
+Unpermitted parameters: isbn, author_id, genre, abstract, image_cover_url, published_on, total_in_library, created_at, updated_at
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "books" SET "pages" = ?, "updated_at" = ? WHERE "books"."id" = ?[0m  [["pages", 5], ["updated_at", "2015-04-30 02:48:55.258886"], ["id", 9]]
+  [1m[35m (23.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/books/9
+Completed 302 Found in 28ms (ActiveRecord: 23.9ms)
+
+
+Started GET "/books/9" for 127.0.0.1 at 2015-04-29 19:48:55 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 9]]
+  Rendered books/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/9/edit" for 127.0.0.1 at 2015-04-29 19:51:45 -0700
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 9]]
+  Rendered shared/_validation_errors.html.erb (0.0ms)
+  Rendered books/_form.html.erb (4.5ms)
+  Rendered books/edit.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/books/9" for 127.0.0.1 at 2015-04-29 19:51:56 -0700
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wDZxHI2GaYaf2FKVDDWHI+9GBJRMJzvsYbjcPFmgiUbPRtrI4fOAx9nRKO3kiz/VeRIeicUf8qD+v3jyhah8bw==", "book"=>{"isbn"=>"a", "title"=>"b", "author_id"=>"c", "genre"=>"d", "abstract"=>"e", "pages"=>"5", "image_cover_url"=>"g", "published_on"=>"h", "total_in_library"=>"u", "created_at"=>"2015-04-30 02:47:59.811319", "updated_at"=>"2015-04-30 02:48:55.258886"}, "commit"=>"Update Book", "id"=>"9"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 9]]
+Unpermitted parameters: isbn, author_id, genre, abstract, image_cover_url, published_on, total_in_library, created_at, updated_at
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "books" SET "title" = ?, "updated_at" = ? WHERE "books"."id" = ?[0m  [["title", "b"], ["updated_at", "2015-04-30 02:51:56.569518"], ["id", 9]]
+  [1m[35m (46.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/books/9
+Completed 302 Found in 51ms (ActiveRecord: 47.2ms)
+
+
+Started GET "/books/9" for 127.0.0.1 at 2015-04-29 19:51:56 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 9]]
+  Rendered books/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/9/edit" for 127.0.0.1 at 2015-04-29 19:54:11 -0700
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 9]]
+  Rendered shared/_validation_errors.html.erb (0.0ms)
+  Rendered books/_form.html.erb (4.5ms)
+  Rendered books/edit.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2015-04-29 19:54:21 -0700
+Processing by BooksController#new as HTML
+  Rendered shared/_validation_errors.html.erb (0.0ms)
+  Rendered books/_form.html.erb (4.1ms)
+  Rendered books/new.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 41ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2015-04-29 19:58:14 -0700
+
+SyntaxError (/home/student/Workspace/gmu_library_project/app/controllers/books_controller.rb:56: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/books_controller.rb:56: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.5ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (38.9ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2015-04-29 19:58:31 -0700
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CK1llY6jg49ilAtQIl5Z9Rb2B1eDmdzYULivpiKugOwH3c5B4tZqziSdcSjK4OEDgKIdSgqhFZTPvwto/qZ1xQ==", "book"=>{"isbn"=>"a", "title"=>"b", "author_id"=>"c", "genre"=>"d", "abstract"=>"e", "pages"=>"f", "image_cover_url"=>"g", "published_on"=>"h", "total_in_library"=>"i", "created_at"=>"j", "updated_at"=>"k"}, "commit"=>"Create Book"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "books" ("title", "pages", "isbn", "author_id", "genre", "abstract", "image_cover_url", "total_in_library", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["title", "b"], ["pages", 0], ["isbn", "a"], ["author_id", 0], ["genre", "d"], ["abstract", "e"], ["image_cover_url", "g"], ["total_in_library", 0], ["created_at", "2015-04-30 02:58:31.681176"], ["updated_at", "2015-04-30 02:58:31.681176"]]
+  [1m[36m (42.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/books/10
+Completed 302 Found in 65ms (ActiveRecord: 45.2ms)
+
+
+Started GET "/books/10" for 127.0.0.1 at 2015-04-29 19:58:31 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mBook Load (0.3ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered books/show.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.2ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 81ms (Views: 79.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/gmu_library_project.self-dda0d9cc1ecf5a69ee608be08103d75d9e2396be9555c0774e9c2f8187e0c57b.css?body=1" for 127.0.0.1 at 2015-04-29 19:58:31 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-04-29 19:58:31 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-04-29 19:58:31 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-04-29 19:58:31 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-29 19:58:31 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-04-29 19:58:31 -0700
+
+
+Started GET "/books/10/edit" for 127.0.0.1 at 2015-04-29 19:59:27 -0700
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered shared/_validation_errors.html.erb (0.0ms)
+  Rendered books/_form.html.erb (18.2ms)
+  Rendered books/edit.html.erb within layouts/application (18.8ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `datetime' for #<ActionView::Helpers::FormBuilder:0x007ffb066c4e78>):
+     9: <%= f.label :image_cover_url %> <%= f.text_field :image_cover_url %><br />
+    10: <%= f.label :published_on %> <%= f.text_field :published_on %><br />
+    11: <%= f.label :total_in_library %> <%= f.text_field :total_in_library %><br />
+    12: <%= f.label :created_at %> <%= f.datetime :created_at %><br />
+    13: <%= f.label :updated_at %> <%= f.datetime :updated_at %><br />
+    14: <p>
+    15: <%= f.submit %>
+  app/views/books/_form.html.erb:12:in `block in _app_views_books__form_html_erb__2937215773450223963_70358056644220'
+  app/views/books/_form.html.erb:1:in `_app_views_books__form_html_erb__2937215773450223963_70358056644220'
+  app/views/books/edit.html.erb:2:in `_app_views_books_edit_html_erb__816129482566296684_70358180292960'
+
+
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.9ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.9ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.9ms)
+
+
+Started GET "/books/10/edit" for 127.0.0.1 at 2015-04-29 19:59:27 -0700
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered shared/_validation_errors.html.erb (0.1ms)
+  Rendered books/_form.html.erb (22.3ms)
+  Rendered books/edit.html.erb within layouts/application (23.6ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (undefined method `datetime' for #<ActionView::Helpers::FormBuilder:0x007ffaec5e1f70>):
+     9: <%= f.label :image_cover_url %> <%= f.text_field :image_cover_url %><br />
+    10: <%= f.label :published_on %> <%= f.text_field :published_on %><br />
+    11: <%= f.label :total_in_library %> <%= f.text_field :total_in_library %><br />
+    12: <%= f.label :created_at %> <%= f.datetime :created_at %><br />
+    13: <%= f.label :updated_at %> <%= f.datetime :updated_at %><br />
+    14: <p>
+    15: <%= f.submit %>
+  app/views/books/_form.html.erb:12:in `block in _app_views_books__form_html_erb__2937215773450223963_70357843334220'
+  app/views/books/_form.html.erb:1:in `_app_views_books__form_html_erb__2937215773450223963_70357843334220'
+  app/views/books/edit.html.erb:2:in `_app_views_books_edit_html_erb__816129482566296684_70358059952560'
+
+
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.0ms)
+
+
+Started GET "/books/" for 127.0.0.1 at 2015-04-29 20:03:05 -0700
+Processing by BooksController#index as HTML
+  [1m[36m (86.8ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0
+  Rendered books/index.html.erb within layouts/application (137.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.2ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 619ms (Views: 523.5ms | ActiveRecord: 87.0ms)
+
+
+Started GET "/assets/gmu_library_project.self-dda0d9cc1ecf5a69ee608be08103d75d9e2396be9555c0774e9c2f8187e0c57b.css?body=1" for 127.0.0.1 at 2015-04-29 20:03:06 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-04-29 20:03:06 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-29 20:03:06 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-04-29 20:03:06 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-04-29 20:03:06 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-04-29 20:03:06 -0700
+
+
+Started GET "/books/10/edit" for 127.0.0.1 at 2015-04-29 20:04:02 -0700
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mBook Load (9.0ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered shared/_validation_errors.html.erb (0.1ms)
+  Rendered books/_form.html.erb (32.5ms)
+  Rendered books/edit.html.erb within layouts/application (38.3ms)
+Completed 500 Internal Server Error in 75ms
+
+ActionView::Template::Error (undefined method `datetime' for #<ActionView::Helpers::FormBuilder:0x007ffaec60ef70>):
+     9: <%= f.label :image_cover_url %> <%= f.text_field :image_cover_url %><br />
+    10: <%= f.label :published_on %> <%= f.text_field :published_on %><br />
+    11: <%= f.label :total_in_library %> <%= f.text_field :total_in_library %><br />
+    12: <%= f.label :created_at %> <%= f.datetime :created_at %><br />
+    13: <%= f.label :updated_at %> <%= f.datetime :updated_at %><br />
+    14: <p>
+    15: <%= f.submit %>
+  app/views/books/_form.html.erb:12:in `block in _app_views_books__form_html_erb__2937215773450223963_70357843334220'
+  app/views/books/_form.html.erb:1:in `_app_views_books__form_html_erb__2937215773450223963_70357843334220'
+  app/views/books/edit.html.erb:2:in `_app_views_books_edit_html_erb__816129482566296684_70358059952560'
+
+
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.8ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (42.6ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (72.7ms)
+
+
+Started GET "/books/10/edit" for 127.0.0.1 at 2015-04-29 20:04:10 -0700
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered shared/_validation_errors.html.erb (0.0ms)
+  Rendered books/_form.html.erb (5.3ms)
+  Rendered books/edit.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 159ms (Views: 157.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/gmu_library_project.self-dda0d9cc1ecf5a69ee608be08103d75d9e2396be9555c0774e9c2f8187e0c57b.css?body=1" for 127.0.0.1 at 2015-04-29 20:04:10 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-04-29 20:04:10 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-04-29 20:04:10 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-29 20:04:10 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-04-29 20:04:10 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-04-29 20:04:10 -0700
+
+
+Started PATCH "/books/10" for 127.0.0.1 at 2015-04-29 20:04:12 -0700
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ohz738jMgQBJnJnxD1STrQ0OQZ5z40Kjy8Ctfl66AB6tbFALpLloQQ+V44nn6itbm1pbg/rbi+9UxwmwgrL1Nw==", "book"=>{"isbn"=>"a", "title"=>"b", "author_id"=>"0", "genre"=>"d", "abstract"=>"e", "pages"=>"0", "image_cover_url"=>"g", "published_on"=>"", "total_in_library"=>"0", "created_at"=>"2015-04-30 02:58:31.681176", "updated_at"=>"2015-04-30 02:58:31.681176"}, "commit"=>"Update Book", "id"=>"10"}
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/books/10
+Completed 302 Found in 17ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/books/10" for 127.0.0.1 at 2015-04-29 20:04:12 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered books/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 51.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 20:04:13 -0700
+Processing by BooksController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0
+  Rendered books/index.html.erb within layouts/application (22.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 123ms (Views: 121.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2015-04-29 20:04:15 -0700
+Processing by BooksController#new as HTML
+  Rendered shared/_validation_errors.html.erb (0.1ms)
+  Rendered books/_form.html.erb (5.1ms)
+  Rendered books/new.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 210ms (Views: 209.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2015-04-29 20:04:17 -0700
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BJnLi+1PJfGinaUuhkq0FKQQvTuFHdSxQM2MZfX5lJAL6WBfgTrMsOSU31Zu9AziMkSnJgwlHf3fyiirKfFhuQ==", "book"=>{"isbn"=>"", "title"=>"", "author_id"=>"", "genre"=>"", "abstract"=>"", "pages"=>"", "image_cover_url"=>"", "published_on"=>"", "total_in_library"=>"", "created_at"=>"", "updated_at"=>""}, "commit"=>"Create Book"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (99.3ms)[0m  INSERT INTO "books" ("title", "isbn", "genre", "abstract", "image_cover_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", ""], ["isbn", ""], ["genre", ""], ["abstract", ""], ["image_cover_url", ""], ["created_at", "2015-04-30 03:04:17.699030"], ["updated_at", "2015-04-30 03:04:17.699030"]]
+  [1m[36m (47.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/books/11
+Completed 302 Found in 152ms (ActiveRecord: 147.1ms)
+
+
+Started GET "/books/11" for 127.0.0.1 at 2015-04-29 20:04:17 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mBook Load (0.1ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 11]]
+  Rendered books/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (1.6ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/books/11" for 127.0.0.1 at 2015-04-29 20:04:24 -0700
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"CNiS1V/1pv/gOz8wO6RalTwARdJpu9dAkQo4yi3DYGMHqDkBM4BPvqYyRUjTGuJjqlRfz+CDHgwODZwE8cuVSg==", "id"=>"11"}
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 11]]
+  [1m[35m (47.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/books
+Completed 302 Found in 50ms (ActiveRecord: 47.5ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 20:04:24 -0700
+Processing by BooksController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0
+  Rendered books/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books/page/4" for 127.0.0.1 at 2015-04-29 20:04:26 -0700
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"4"}
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 9
+  Rendered books/index.html.erb within layouts/application (23.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 62ms (Views: 60.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2015-04-29 20:04:58 -0700
+Processing by BooksController#new as HTML
+  Rendered shared/_validation_errors.html.erb (0.0ms)
+  Rendered books/_form.html.erb (5.1ms)
+  Rendered books/new.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 67ms (Views: 44.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2015-04-29 20:05:01 -0700
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9ukcR9H+z+2hpa3qmowgtJBSpL+hUW8DCHLs1C3q4vf5mbeTvYsmrOes15JyMphCBga+oihppk+XdUga8eIX3g==", "book"=>{"isbn"=>"test", "title"=>"", "author_id"=>"", "genre"=>"", "abstract"=>"", "pages"=>"", "image_cover_url"=>"", "published_on"=>"", "total_in_library"=>"", "created_at"=>"", "updated_at"=>""}, "commit"=>"Create Book"}
+Completed 500 Internal Server Error in 2ms
+
+ArgumentError (wrong number of arguments (2 for 1)):
+  app/controllers/books_controller.rb:49:in `book_params'
+  app/controllers/books_controller.rb:11:in `create'
+
+
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.7ms)
+
+
+Started POST "/books" for 127.0.0.1 at 2015-04-29 20:05:33 -0700
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9ukcR9H+z+2hpa3qmowgtJBSpL+hUW8DCHLs1C3q4vf5mbeTvYsmrOes15JyMphCBga+oihppk+XdUga8eIX3g==", "book"=>{"isbn"=>"test", "title"=>"", "author_id"=>"", "genre"=>"", "abstract"=>"", "pages"=>"", "image_cover_url"=>"", "published_on"=>"", "total_in_library"=>"", "created_at"=>"", "updated_at"=>""}, "commit"=>"Create Book"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "books" ("title", "isbn", "genre", "abstract", "image_cover_url", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["title", ""], ["isbn", "test"], ["genre", ""], ["abstract", ""], ["image_cover_url", ""], ["created_at", "2015-04-30 03:05:33.586734"], ["updated_at", "2015-04-30 03:05:33.586734"]]
+  [1m[36m (52.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/books/12
+Completed 302 Found in 74ms (ActiveRecord: 55.8ms)
+
+
+Started GET "/books/12" for 127.0.0.1 at 2015-04-29 20:05:33 -0700
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", 12]]
+  Rendered books/show.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 64ms (Views: 62.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/gmu_library_project.self-dda0d9cc1ecf5a69ee608be08103d75d9e2396be9555c0774e9c2f8187e0c57b.css?body=1" for 127.0.0.1 at 2015-04-29 20:05:33 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-04-29 20:05:33 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-04-29 20:05:33 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-04-29 20:05:33 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-04-29 20:05:33 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-04-29 20:05:33 -0700
+
+
+Started GET "/books" for 127.0.0.1 at 2015-04-29 20:05:42 -0700
+Processing by BooksController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "books"[0m
+  [1m[35mBook Load (0.2ms)[0m  SELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0
+  Rendered books/index.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 46ms (Views: 44.6ms | ActiveRecord: 0.4ms)

@@ -4,8 +4,18 @@
     <h2> <%= @book.title %> </h2>
   </header>
 
+  <p><label>ISBN:</label> <%= @book.isbn %></p>
+  <p><label>Title:</label> <%= @book.title %></p>
   <p><label>Author:</label> <%= @book.author_id %></p>
+  <p><label>Genre:</label> <%= @book.genre %></p>
+  <p><label>Abstract:</label> <%= @book.abstract %></p>
   <p><label>Pages:</label> <%= number_with_delimiter(@book.pages) %></p>
+  <p><label>Image Cover URL:</label> <%= @book.image_cover_url %></p>
+  <p><label>Published On:</label> <%= @book.published_on %></p>
+  <p><label>Total In Library:</label> <%= @book.total_in_library %></p>
+  <p><label>Created At:</label> <%= @book.created_at %></p>
+  <p><label>Updated At:</label> <%= @book.updated_at %></p>
+
 </article>
   <%= link_to 'Edit', edit_book_path(@book) %>
   |<%= link_to 'All Books', books_path %>
