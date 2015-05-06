@@ -3202,3 +3202,342 @@ Processing by BooksController#index as HTML
   Rendered layouts/_sidebar.html.erb (0.2ms)
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 46ms (Views: 44.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-06 16:45:41 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (6.7ms)
+Completed 200 OK in 122ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-06 16:46:02 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:46:20 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (182.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.5ms)
+  Rendered layouts/_sidebar.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 4969ms (Views: 4965.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/gmu_library_project.self-dda0d9cc1ecf5a69ee608be08103d75d9e2396be9555c0774e9c2f8187e0c57b.css?body=1" for 127.0.0.1 at 2015-05-06 16:46:25 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-06 16:46:25 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-06 16:46:25 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-06 16:46:25 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-06 16:46:25 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-06 16:46:25 -0700
+
+
+Started GET "/books/page/2" for 127.0.0.1 at 2015-05-06 16:46:27 -0700
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 3[0m
+  Rendered books/index.html.erb within layouts/application (35.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered shared/_flashes.html.erb (0.3ms)
+  Rendered layouts/_sidebar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 79ms (Views: 77.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:46:27 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (9.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/page/4" for 127.0.0.1 at 2015-05-06 16:46:28 -0700
+Processing by BooksController#index as HTML
+  Parameters: {"page"=>"4"}
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.1ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 9[0m
+  Rendered books/index.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:51:09 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/gmu_library_project.self-dda0d9cc1ecf5a69ee608be08103d75d9e2396be9555c0774e9c2f8187e0c57b.css?body=1" for 127.0.0.1 at 2015-05-06 16:51:09 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-06 16:51:09 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-06 16:51:09 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-05-06 16:51:09 -0700
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2015-05-06 16:51:09 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-06 16:51:09 -0700
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:51:11 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books/new" for 127.0.0.1 at 2015-05-06 16:51:59 -0700
+Processing by BooksController#new as HTML
+  Rendered shared/_validation_errors.html.erb (17.2ms)
+  Rendered books/_form.html.erb (124.9ms)
+  Rendered books/new.html.erb within layouts/application (126.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 167ms (Views: 166.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:52:01 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:52:50 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (11.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:52:52 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.4ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 55ms (Views: 53.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:52:54 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (8.3ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 57ms (Views: 55.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:56:55 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (11.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (37.3ms)
+Completed 500 Internal Server Error in 92ms
+
+ActionView::Template::Error (undefined local variable or method `my_reservations_path' for #<#<Class:0x007f9a8b291620>:0x007f9a8aa8b318>):
+    11:         <%= link_to 'Author', books_path %>
+    12:       </p>
+    13:       <p>
+    14:         <%= link_to 'My Reservations', my_reservations_path %>
+    15:       </p>
+    16:       <p>
+    17:         <%= link_to 'New Book', new_book_path %>
+  app/views/layouts/_sidebar.html.erb:14:in `_app_views_layouts__sidebar_html_erb__158702825496712215_70150687019340'
+  app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___754999779132263631_70150868181080'
+
+
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (25.5ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (42.4ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:58:27 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (12.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (14.9ms)
+Completed 500 Internal Server Error in 65ms
+
+ActionView::Template::Error (undefined local variable or method `logout_path' for #<#<Class:0x007f9a8b291620>:0x007f9a77ff8d40>):
+    20:         <%= link_to 'Overdue Books', books_path %>
+    21:       </p>
+    22:       <p>
+    23:         <%= link_to 'Logout', logout_path %>
+    24:       </p>
+    25:     </div>
+    26:   </div>
+  app/views/layouts/_sidebar.html.erb:23:in `_app_views_layouts__sidebar_html_erb__158702825496712215_70150697561820'
+  app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___754999779132263631_70150868181080'
+
+
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.5ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.6ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/student/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.0ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:58:45 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.3ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (18.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 65ms (Views: 63.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:58:47 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 50ms (Views: 48.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:58:48 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:58:48 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:58:48 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:58:49 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books" for 127.0.0.1 at 2015-05-06 16:58:49 -0700
+Processing by BooksController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "books"
+  [1m[36mBook Load (0.2ms)[0m  [1mSELECT  "books".* FROM "books"  ORDER BY "books"."title" ASC LIMIT 3 OFFSET 0[0m
+  Rendered books/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered shared/_flashes.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.3ms)
