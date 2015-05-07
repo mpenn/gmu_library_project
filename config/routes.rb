@@ -2,10 +2,11 @@ Rails.application.routes.draw do
 
   get "/books" => "books#index", as: 'books'
   get "/books/new" => "books#new", as: 'new_book'
+  get "/books/overdue" => "books#overdue", as: 'overdue'
   get "/books/:id" => "books#show", as: 'book'
   post "/books" => "books#create"
   get "books/:id/edit" => "books#edit", as: 'edit_book'
-  get "/books/overdue" => "books#overdue", as: 'overdue'
+
 
   get "/users" => "users#index", as: 'users'
   #get "/users/new" => "users#new", as: 'new_user'

@@ -1,8 +1,9 @@
-<%= form_for(@user) do |f| %>
-<%= render 'shared/validation_errors', object: @user %>
-<%= f.label :user_id %> <%= f.text_field :user_id, autofocus: true %><br />
-<%= f.label :password_digest %> <%= f.text_field :password_digest %><br />
-<p>
-<%= f.submit %>
-</p>
-<% end %>
+
+  <%= label_tag :user_id, 'Username: ' %><br>
+  <%= text_field_tag :user_id %><br>
+
+  <%= label_tag :password_digest, 'Password: ' %><br>
+  <%= password_field_tag :password_digest %><br>
+
+  <%= submit_tag 'Login' %>
+
