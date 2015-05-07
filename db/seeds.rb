@@ -25,15 +25,16 @@ tale_of_matt = Book.where(title: 'The Tale of Matt').first_or_create(isbn: '6546
 card2 = Book.where(title: 'Card Book Two').first_or_create(isbn: '65464661', author: card, genre: 'Adventure', abstract: 'This is an adventure book', pages:455, image_cover_url: 'http://test.com', published_on:'07/07/1990', total_in_library:18, created_at: '07/07/1991', created_at: '07/07/1993' )
 tolkien2 = Book.where(title: 'Tolkien Book Two').first_or_create(isbn: '65464662', author: tolkien, genre: 'Adventure', abstract: 'This is an adventure book', pages:455, image_cover_url: 'http://test.com', published_on:'07/07/1990', total_in_library:18, created_at: '07/07/1991', created_at: '07/07/1993' )
 
-# Create a reservation
-#Reservation.first_or_create(reserved_on:04/10/2014, user: matt, book_id: hobbit, created_at: '04/19/2015')
-#Reservation.first_or_create(reserved_on:04/11/2014, user: matt, book_id: hatchet, created_at: '04/19/2015')
-#Reservation.first_or_create(reserved_on:04/12/2014, user: marie, book_id: atlas, created_at: '04/19/2015')
-#Reservation.first_or_create(reserved_on:04/13/2014, user: joe, book_id: atlas, created_at: '04/19/2015')
-#Reservation.first_or_create(reserved_on:04/14/2014, user: joe, book_id: tale_of_joe, created_at: '04/19/2015')
-#Reservation.first_or_create(reserved_on:04/15/2014, user: marie, book_id: hobbit, created_at: '04/19/2015')
-
 # Create a user
 matt = User.where(user_id: 'mpenn').first_or_create(name: 'Matt Penn', password_digest: 'password', admin: false, created_at: '04/07/2014')
 joey = User.where(user_id: 'jfrank').first_or_create(name: 'Joe Frankie', password_digest: 'password', admin: false, created_at: '04/07/2014')
 marie = User.where(user_id: 'mhan').first_or_create(name: 'Marie Han', password_digest: 'password', admin: true, created_at: '04/07/2014')
+
+
+# Create a reservation
+Reservation.first_or_create(reserved_on:04/10/2014, user: matt, book_id: hobbit, created_at: '04/19/2015')
+Reservation.first_or_create(reserved_on:04/11/2014, user: matt, book_id: hatchet, created_at: '04/19/2015')
+Reservation.first_or_create(reserved_on:04/12/2014, user: marie, book_id: atlas, created_at: '04/19/2015')
+Reservation.first_or_create(reserved_on:04/13/2014, user: joe, book_id: atlas, created_at: '04/19/2015')
+Reservation.first_or_create(reserved_on:04/14/2014, user: joe, book_id: tale_of_joe, created_at: '04/19/2015')
+Reservation.first_or_create(reserved_on:04/15/2014, user: marie, book_id: hobbit, created_at: '04/19/2015')
