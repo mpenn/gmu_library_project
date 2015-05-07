@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   post "/books" => "books#create"
   get "books/:id/edit" => "books#edit", as: 'edit_book'
 
+  get "/users/new" => "users#new", as: 'new_user'
+
   resources :books do
       get 'page/:page', :action => :index, :on => :collection
   end

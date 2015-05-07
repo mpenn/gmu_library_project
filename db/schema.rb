@@ -11,11 +11,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150430002247) do
+ActiveRecord::Schema.define(version: 20150507002418) do
+
+  create_table "authors", force: :cascade do |t|
+    t.string   "name"
+    t.string   "nationality"
+    t.datetime "dob"
+    t.string   "awards"
+    t.string   "biography"
+    t.string   "image_url"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
 
   create_table "books", force: :cascade do |t|
     t.string   "isbn"
     t.string   "title"
+    t.string   "author"
     t.integer  "author_id"
     t.string   "genre"
     t.text     "abstract"
@@ -25,6 +37,23 @@ ActiveRecord::Schema.define(version: 20150430002247) do
     t.integer  "total_in_library"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
+  end
+
+  create_table "reservations", force: :cascade do |t|
+    t.datetime "reserved_on"
+    t.string   "user"
+    t.string   "book_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "user_id"
+    t.string   "password_digest"
+    t.string   "name"
+    t.boolean  "admin"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
 
 end
