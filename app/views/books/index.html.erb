@@ -1,13 +1,2 @@
-<h1>Books</h1>
-<p>Available as <%= formatted_time(@available_at) %></p>
-  <%= page_entries_info @books %>
-  <ol>
-    <% @books.each do |book| %>
-      <li>
-        <%= link_to(book.title, book) %>
-        by <%= book.author_id %><br/>
-      </li>
-    <% end %>
-  </ol>
-
-<%= paginate @books %>
+<h1>All Books</h1>
+<%= render 'results' %>

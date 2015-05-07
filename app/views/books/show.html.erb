@@ -6,7 +6,7 @@
 
   <p><label>ISBN:</label> <%= @book.isbn %></p>
   <p><label>Title:</label> <%= @book.title %></p>
-  <p><label>Author:</label> <%= @book.author_id %></p>
+  <p><label>Author: TODO: Link to Author.  Need to fix model.</label>
   <p><label>Genre:</label> <%= @book.genre %></p>
   <p><label>Abstract:</label> <%= @book.abstract %></p>
   <p><label>Pages:</label> <%= number_with_delimiter(@book.pages) %></p>
@@ -17,8 +17,10 @@
   <p><label>Updated At:</label> <%= @book.updated_at %></p>
 
 </article>
+<!--
   <%= link_to 'Edit', edit_book_path(@book) %>
   |<%= link_to 'All Books', books_path %>
   <%= button_to 'Delete', @book,
   method: :delete,
   data: { confirm: 'Are you sure?' } %>
+-->

@@ -1,9 +1,9 @@
 class BooksController < ApplicationController
 
   before_action :set_book, only: [ :show, :edit, :update, :destroy ]
+  before_action :set_available_time, only: [:index, :search]
 
   def index
-    @available_at = Time.now
     @books = Book.order(:title).page(params[:page])
   end
 
@@ -17,6 +17,7 @@ class BooksController < ApplicationController
   end
 
   def show
+    @author = @book.author
   end
 
   def new
@@ -24,7 +25,15 @@ class BooksController < ApplicationController
   end
 
   def overdue
-    #TODO
+    #TODO: Figure out which books are overdue and return them to display on the form.
+  end
+
+  def search
+    #TODO: Implement Search
+    @books = Book.order(:title).page(params[:page])
+
+    #@books = Book.search(params[:search]) THIS didn't work
+
   end
 
   def edit
@@ -57,5 +66,8 @@ class BooksController < ApplicationController
     @book = Book.find(params[:id])
   end
 
+  def set_available_time
+    @available_at = Time.now
+  end
 
 end

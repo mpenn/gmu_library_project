@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get "/books" => "books#index", as: 'books'
   get "/books/new" => "books#new", as: 'new_book'
   get "/books/overdue" => "books#overdue", as: 'overdue'
+  get "/books/search" => "books#search", as: 'search'
   get "/books/:id" => "books#show", as: 'book'
   post "/books" => "books#create"
   get "books/:id/edit" => "books#edit", as: 'edit_book'
@@ -12,6 +13,7 @@ Rails.application.routes.draw do
   #get "/users/new" => "users#new", as: 'new_user'
 
   get "/authors" => "authors#index", as: 'authors'
+  get "/authors/:id" => "authors#show", as: 'author'
   #get "/authors/new" => "authors#new", as: 'new_author'
 
   get "/reservations" => "reservations#index", as: 'reservations'

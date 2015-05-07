@@ -1,0 +1,31 @@
+<br>
+<%= text_field_tag :search_terms %><%= link_to 'Search', search_path %>
+
+
+
+
+<% form_tag search_path, :method => 'get' do %>
+  <p>
+    <%= text_field_tag :search, params[:search] %>
+    <%= submit_tag "Search", :name => nil %>
+  </p>
+<% end %>
+
+
+
+<br>
+<br>
+<p>Available as <%= formatted_time(@available_at) %></p>
+  <%= page_entries_info @books %>
+  <ol>
+    <% @books.each do |book| %>
+      <li>
+        <%= link_to(book.title, book) %>
+        by
+        TODO: Link to Author.  Need to fix model.
+        <%= book.author %><br/>
+      </li>
+    <% end %>
+  </ol>
+
+<%= paginate @books %>
