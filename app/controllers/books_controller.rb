@@ -23,6 +23,10 @@ class BooksController < ApplicationController
     @book = Book.new
   end
 
+  def overdue
+    #TODO
+  end
+
   def edit
   end
 

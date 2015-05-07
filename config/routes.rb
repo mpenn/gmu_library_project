@@ -5,8 +5,16 @@ Rails.application.routes.draw do
   get "/books/:id" => "books#show", as: 'book'
   post "/books" => "books#create"
   get "books/:id/edit" => "books#edit", as: 'edit_book'
+  get "/books/overdue" => "books#overdue", as: 'overdue'
 
-  get "/users/new" => "users#new", as: 'new_user'
+  get "/users" => "users#index", as: 'users'
+  #get "/users/new" => "users#new", as: 'new_user'
+
+  get "/authors" => "authors#index", as: 'authors'
+  #get "/authors/new" => "authors#new", as: 'new_author'
+
+  get "/reservations" => "reservations#index", as: 'reservations'
+
 
   resources :books do
       get 'page/:page', :action => :index, :on => :collection
