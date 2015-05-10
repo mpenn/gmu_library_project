@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get "/books" => "books#index", as: 'books'
+  get "/books" => "users#index", as: 'books'
   get "/books/new" => "books#new", as: 'new_book'
   get "/books/overdue" => "books#overdue", as: 'overdue'
   get "/books/search" => "books#search", as: 'search'

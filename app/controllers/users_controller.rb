@@ -1,5 +1,10 @@
 class UsersController < ApplicationController
 
+
+
+
+
+
   def new
    #@user = User.new
    @user = User.new
@@ -14,7 +19,6 @@ class UsersController < ApplicationController
   def check_login
 
   end
-
 
 
 end
