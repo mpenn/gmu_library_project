@@ -21,9 +21,7 @@
     <% @books.each do |book| %>
       <li>
         <%= link_to(book.title, book) %>
-        by
-        TODO: Link to Author.  Need to fix model.
-        <%= book.author %><br/>
+        <%= link_to(book.author.name, book.author) %><br/>
       </li>
     <% end %>
   </ol>
