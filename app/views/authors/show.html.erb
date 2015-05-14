@@ -8,6 +8,6 @@
   <p><label>DOB:</label> <%= @author.dob %></p>
   <p><label>Awards:</label> <%= @author.awards %></p>
   <p><label>Biography:</label> <%= @author.biography %></p>
-  <p><label>Photo:</label> <%= @author.image_url %></p>
+  <p> <%= image_tag(@author.image_url, height: '120') %></p>
 
 </article>

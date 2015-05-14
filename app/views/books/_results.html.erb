@@ -20,7 +20,7 @@
   <ol>
     <% @books.each do |book| %>
       <li>
-        <%= link_to(book.title, book) %>
+        <%= link_to(book.title, book) %> by
         <%= link_to(book.author.name, book.author) %><br/>
       </li>
     <% end %>

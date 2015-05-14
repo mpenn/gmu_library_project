@@ -10,7 +10,7 @@
   <p><label>Genre:</label> <%= @book.genre %></p>
   <p><label>Abstract:</label> <%= @book.abstract %></p>
   <p><label>Pages:</label> <%= number_with_delimiter(@book.pages) %></p>
-  <p><label>Image Cover URL:</label> <%= @book.image_cover_url %></p>
+  <p> <%= image_tag(@book.image_cover_url, height: '120') %></p>
   <p><label>Published On:</label> <%= @book.published_on %></p>
   <p><label>Total In Library:</label> <%= @book.total_in_library %></p>
   <p><label>Created At:</label> <%= @book.created_at %></p>
